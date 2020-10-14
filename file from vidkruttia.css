@@ -1,0 +1,23 @@
+body{
+	background-color: lightblue;
+}
+h1{
+			color: darkblue;
+  }
+p{
+	font-size: 18pt;
+	color: blue;
+}	
+b{
+	font-size: 23pt;
+}
+h3{
+	text-align: center;
+}
+#knop{
+	background-color: deepskyblue;
+}
+a{
+	text-decoration: none;
+	color: darkblue
+}
