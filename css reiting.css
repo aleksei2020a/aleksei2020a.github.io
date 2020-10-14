@@ -1,0 +1,24 @@
+th,td{
+	border: 2px solid;
+	text-align: center;
+}
+table{
+	width: 35%;
+	margin: auto;
+	margin-top: 50px;
+	height: 600px;
+	border-collapse: collapse;
+}
+caption{
+	background-color: #DEB887;
+	font-size: 15pt;
+}
+th{
+	background-color: #DEB887;
+}
+#knop{
+		background-color: lightblue;
+	}
+	a{
+	text-decoration: none;
+	color: green}
