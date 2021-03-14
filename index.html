@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mykhailyk</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap" rel="stylesheet">
+
+	<style>
+		body{
+			background: url(https://gr-agro.com/wp-content/uploads/2021/03/tyulpany_cvety_belye_vesna_krasota_zelen_24623_1920x1080.jpg);
+			margin: 0;
+			background-size: cover;
+		}
+		.gl{
+			margin: auto;
+			width: 1000px;
+			height: 500px;
+			background-color: lightblue;
+			border-radius: 50px;
+			border:1px solid;
+			border:double 10px;
+			border-color: green;
+		}
+		p{
+			margin: 0;
+			margin-top: 25px;
+			font-size: 100px;
+			width: 1000px;
+			background-color: #90EE90;
+			text-align: center;
+			border-radius: 10px;
+			font-family: 'Montserrat Alternates', sans-serif;
+			animation: zag infinite 3s linear;
+		}
+		video{
+			margin-top: 25px;
+			margin-left: 250px;
+			
+		}
+		@keyframes zag {
+    	0% {
+        	color: orange;
+    	}
+    	33% {
+        	color: red;
+    	}
+    	66% {
+        	color: blue;
+    	}
+    	100% {
+       	 color: orange;
+    	}
+				}
+		
+		}
+	</style>
+</head>
+<body>
+	<div class="gl" style="margin-top: 100px;">
+		<p>З 8 березня!</p>
+		<video controls poster="photo.jpg" width="500" height="300">
+			<source src="свято.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, Windows Phone 7 -->
+			<source src="святo.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, Chrome -->
+			<source src="свято.ogv" type="video/ogg"><!-- Ogg/Vorbis для старих версій Firefox, Opera -->
+			<track label="Українська" kind="titles" src="titru.vtt" srclang="uk">
+		</video>	
+</div>
+</body>
+</html>
